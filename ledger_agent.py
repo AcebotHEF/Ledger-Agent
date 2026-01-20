@@ -16,7 +16,7 @@ def run_ledger_analysis():
     
     # CHANGED: Using Gemini 1.5 Flash (Fast & Free)
     llm = ChatGoogleGenerativeAI(
-        model="gemini-1.5-flash",
+        model="gemini-pro",        
         temperature=0.2
     )
     
